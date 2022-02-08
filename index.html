@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/374624fb52.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- =========================================== HEADER ======================================= -->
+    <header>
+      <div class="nav-top">
+        <img src="white2.png" alt="air bnb logo" />
+        <nav>
+          <ul>
+            <li>
+              <a href="">Lugares para Ficar</a>
+            </li>
+            <li>
+              <a href="">Experiências</a>
+            </li>
+            <li>
+              <a href="">Experiências Online</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu">
+          <button class="transparent-button">
+            <a href=""> Seja um Anfitrião</a>
+          </button>
+          <button class="transparent-button">
+            <a href=""><i class="fas fa-globe"></i></a>
+          </button>
+          <button class="white-button">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-user"></i>
+          </button>
+        </div>
+      </div>
+      <div class="checkin">
+        <form
+          name="form_search"
+          id="form_search"
+          class="form_search"
+          method="GET"
+        >
+          <div class="label_input">
+            <label for="location">Localização</label>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              placeholder="Para onde voce vai?"
+            />
+          </div>
+          <div class="label_input">
+            <label for="checkin">checkin</label>
+            <input type="date" id="checkin" placeholder="Quando?" />
+          </div>
+          <div class="label_input">
+            <label for="checkout">checkout</label>
+            <input type="date" id="checkout" placeholder="Quando?" />
+          </div>
+          <div class="label_input">
+            <label for="Guests">Hóspedes</label>
+            <input type="number" name="Guests" id="Quantos?" />
+          </div>
+          <button type="submit" class="btn_submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="forest-background">
+        <button>
+          <i class="fas fa-play"></i>
+
+          Assista ao Comunicado
+        </button>
+      </div>
+      <div class="spanbutton">
+        <span
+          >Conheça as mais de 50 novidades da nossa edição de novembro de
+          2021.</span
+        >
+        <button>
+          <a
+            href="https://www.airbnb.com.br/2021-winter"
+            rel="noopener noreferrer"
+            >Saiba Mais</a
+          >
+        </button>
+      </div>
+      <div class="wrapcamp">
+        <div class="camp-background">
+          <div class="h1plusbutton">
+            <h1>
+              Está na dúvida de onde ir? <br />
+              Tudo bem!
+            </h1>
+            <button><a href="">Busca Flexível</a></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="blank"></section>
+    <!-- =========================================== INSPIRATION ======================================= -->
+
+    <section class="inspiration">
+      <h2>Inspiração para a sua próxima viagem</h2>
+      <div class="destinies">
+        <div class="destiny marica">
+          <img src="../assets/marica.png" alt="Maricá" />
+          <div class="h4span">
+            <h4>Maricá</h4>
+            <span>1,5 horas de carro</span>
+          </div>
+        </div>
+
+        <div class="destiny sp">
+          <img src="../assets/saopaulo.jpg" alt="São Paulo" />
+          <div class="h4span">
+            <h4>São Paulo</h4>
+            <span>6 horas de carro</span>
+          </div>
+        </div>
+
+        <div class="destiny rj">
+          <img src="../assets/rj.jpg" alt="Rio de Janeiro" />
+          <div class="h4span">
+            <h4>Rio de Janeiro</h4>
+            <span>30 minutos de carro</span>
+          </div>
+        </div>
+
+        <div class="destiny guaruja">
+          <img src="../assets/guaruja.jpg" alt="Guarujá" />
+          <div class="h4span">
+            <h4>Guarujá</h4>
+            <span>7,5 horas de carro</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================== DISCOVER ======================================= -->
+
+    <section class="discover">
+      <h2 class="discoverh2">Descubra as experiências no Airbnb</h2>
+      <div class="h2buttonfather">
+        <div class="h2button">
+          <h2>Atividades para fazer na sua viagem</h2>
+          <button>Experiências</button>
+        </div>
+        <div class="h2button">
+          <h2>Atividades para fazer sem sair de casa</h2>
+          <button>Experiências Online</button>
+        </div>
+        <div class="h1buttondiscover">
+          <h1>
+            Dúvidas <br />
+            sobre como<br />
+            hospedar?
+          </h1>
+          <button>Pergunte a um Superhost</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================== FUTURE ======================================= -->
+
+    <section class="future">
+      <h2>Inspiração para viagens futuras</h2>
+      <a href="litoral">Destinos Litorâneos</a>
+      <div class="states">
+        <a href="https://www.airbnb.com.br/aracaju-brazil/stays">
+          <div class="state">
+            <h3>Aracaju</h3>
+            <span>State of Sergipe</span>
+          </div>
+        </a>
+        <a href="https://www.airbnb.com.br/araruama-brazil/stays">
+          <div class="state">
+           <h3>Araruama</h3>
+            <span>Rio de Janeiro</span>
+          </div>
+        </a>
+        <a href="https://www.airbnb.com.br/arembepe-brazil/stays">
+          <div class="state">
+           <h3>Arembepe</h3>
+            <span>Bahia</span>
+          </div>
+        </a>
+        <!-- ancora aqui -->
+        <a href="https://www.airbnb.com.br/arraial-dajuda-brazil/stays">
+          <div class="state">
+            <h3>Arraial d'Ajuda</h3>
+            <span>Bahia</span>
+          </div>
+        </a>
+        <!-- ancora aqui -->
+        <a href="https://www.airbnb.com.br/atibaia-brazil/stays">
+          <div class="state">
+          <h3>Atibaia</h3>
+            <span>São Paulo</span>
+          </div>
+        </a>
+        <!-- ancora aqui -->
+        <a href="https://www.airbnb.com.br/barra-grande-brazil/stays">
+          <div class="state">
+           <h3>Barra Grande</h3>
+            <span>Bahia</span>
+          </div>
+        </a>
+        <!-- ancora aqui -->
+        <a href="https://www.airbnb.com.br/bertioga-brazil/stays">
+          <div class="state">
+            <h3>Bertioga</h3>
+            <span>São Paulo</span>
+          </div>
+        </a>
+        <!-- ancora aqui -->
+        <a href="https://www.airbnb.com.br/armacao-dos-buzios-brazil/stays">
+          <div class="state">
+          <h3>Armação dos Búzios</h3>
+            <span>Rio de Janeiro</span>
+          </div>
+        </a>
+        <!-- ancora aqui -->
+        <a href="https://www.airbnb.com.br/cabo-frio-brazil/stays">
+          <div class="state">
+          <h3>Cabo Frio</h3>
+            <span>Rio de Janeiro</span>
+          </div>
+        </a>
+        <!-- ancora aqui -->
+        <a href="https://www.airbnb.com.br/camboriu-brazil/stays">
+          <div class="state">
+            <h3>Camboriú</h3>
+            <span>Santa Catarina</span>
+          </div>
+        </a>
+        <!-- ancora aqui -->
+        <a href="https://www.airbnb.com.br/canoa-quebrada-brazil/stays">
+          <div class="state">
+            <h3>Canoa Quebrada</h3>
+            <span>Ceará</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- =========================================== FOOTER ======================================= -->
+
+    <footer>
+      <div class="footerup">
+        <section>
+          <h3>Sobre</h3>
+          <ul>
+            <li>
+              <a href="https://www.airbnb.com.br/d/howairbnbworks"
+                >Como funciona o Airbnb</a
+              >
+            </li>
+            <li>
+              <a href="https://news.airbnb.com/br/">Newsroom</a>
+            </li>
+            <li>
+              <a href="https://www.airbnb.com.br/2021">Airbnb 2021</a>
+            </li>
+            <li>
+              <a href="https://investors.airbnb.com/home/default.aspx"
+                >Investidores</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Comunidade</h3>
+          <ul>
+            <li>
+              <a href="https://www.airbnb.com.br/diversity"
+                >Diversidade e pertencimento</a
+              >
+            </li>
+            <li>
+              <a href="https://www.airbnb.com.br/d/accessibility"
+                >Acessibilidade</a
+              >
+            </li>
+            <li>
+              <a href="https://www.airbnb.com.br/associates?from=footer"
+                >Associados do Airbnb</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://pt.airbnb.org/refugees?_ga=2.97838111.1660472827.1633712687-1257624633.1633712687&_set_bev_on_new_domain=1633715132_YjYxN2NjZmViZGM2"
+                >Hospede refugiados afegãos</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Anfitrião</h3>
+          <ul>
+            <li>
+              <a href="https://www.airbnb.com.br/host/homes?from_footer=1"
+                >Hospede em sua acomodação</a
+              >
+            </li>
+            <li>
+              <a href="https://www.airbnb.com.br/d/onlinehost"
+                >Ofereça uma experiência online</a
+              >
+            </li>
+            <li>
+              <a href="https://www.airbnb.com.br/host/experiences"
+                >Ofereça uma experiência</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.airbnb.com.br/help/article/1397/informa%C3%A7%C3%B5es-gerais-sobre-a-hospedagem-em-acomoda%C3%A7%C3%B5es"
+                >Hospedagem responsável</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Atendimento</h3>
+          <ul>
+            <li>
+              <a href="https://www.airbnb.com.br/d/covidsafety"
+                >Nossa resposta à pandemia de COVID-19</a
+              >
+            </li>
+            <li>
+              <a href="https://www.airbnb.com.br/help/home?from=footer"
+                >Central de Ajuda</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.airbnb.com.br/help/article/2701/a-pol%C3%ADtica-de-causas-de-for%C3%A7a-maior-e-o-coronav%C3%ADrus-covid19"
+                >Opções de cancelamento</a
+              >
+            </li>
+            <li>
+              <a href="https://www.airbnb.com.br/neighbors"
+                >Canal de Apoio ao Vizinho</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="footerdown">
+        <div class="left">
+          <span>© 2021 Airbnb, Inc.</span>
+          <a
+            href="https://www.airbnb.com.br/help/article/2855/pol%C3%ADtica-de-privacidade"
+            >Privacidade</a
+          >Termos<a
+            href="https://www.airbnb.com.br/help/article/2908/termos-de-servi%C3%A7o"
+          ></a
+          >Mapa do site<a href="https://www.airbnb.com.br/sitemaps/v2"></a
+          >Informações da empresa<a
+            href="https://www.airbnb.com.br/about/company-details"
+          ></a>
+        </div>
+        <div class="right">
+          <div class="iconsleft">
+            <i class="fas fa-globe"></i>
+            <span>Português(BR)</span>
+            <span>R$</span>
+            <span>BRL</span>
+          </div>
+          <div class="iconsright">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
